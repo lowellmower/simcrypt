@@ -38,12 +38,14 @@ An application needs to speak to an API to get some credentials or some other
 type of sensitive data and then continue to use that information for a period of
 time. A shared key can be used between the API and the client application to 
 encypt the credentials before sending, allowing the client application to safely
-hold the information encrypted in memory and decrypt it only when it is needed.
+hold the information encrypted in memory and decrypt it only when needed.
 
 #### TODO:
-- Make this a CLI
+- Make a CLI
 - Make flags for cipher types
 - Make flags for key byte length
-- In package salting of keys
+- Support other types
+- In package salting
+- In package peppering
 - Bake a pie
 - Go to the gym

@@ -67,6 +67,7 @@ func TestDecryptString(t *testing.T) {
 	}
 }
 
+// test all (or a bunch of common) special characters
 // test a key smaller than 32 bytes
 // test a key greater than 32 bytes
 // test a key exactly 32 bytes
