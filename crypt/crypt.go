@@ -77,11 +77,11 @@ func DecryptString(key, cryptoText string) (string, error) {
 
 // checkKeyLength ensures that a key being provided is at least 32
 // bytes as aes.NewCipher will only produce a valid block from a key
-// of bytes with length of 16, 24, or 32
+// of 32 bytes or greater
 func checkKeyLength(k string) error {
 	bLen := len([]byte(k))
-	if bLen != 32 {
-		err := fmt.Errorf("Provided key was %d bytes, should be 32", bLen)
+	if bLen < 32 {
+		err := fmt.Errorf("Provided key was %d bytes, must be >= 32", bLen)
 		return err
 	}
 
