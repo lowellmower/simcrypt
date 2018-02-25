@@ -3,6 +3,17 @@ SimCrypt is a tiny, simple, easy way to encrypt and decrypt strings in Go using
 a shared key. The tool does one thing and does it quickly making it convenient
 for things like storing sensitive data in memory in your applications.
 
+## DISCLAIMER
+This package is currently intended for my own use and curiosity. By no stretch of
+the imagination should you blindly rely on this (or anything) for serious and 
+stringent encryption needs. On a similar note, you should probably not adopt a 
+cat without meeting it first. Oh, and, I wouldn't recommend eating soup at a
+restaurant if you're a vegetarian and haven't seen an ingredient list. Oh oh 
+oh... also... don't marry someone without meeting them before hand. Basically, 
+if you just blindly trust something on the Internet to do something incredibly
+important and you haven't kicked the tires and looked under the hood, you may
+want to start doing that.
+
 #### Usage (see below or `main.go`)
 ```go
 package main
