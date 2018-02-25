@@ -30,7 +30,8 @@ ok  	github.com/lowellmower/simcrypt/crypt	0.200s
 crypt [master] :> go test -bench=BenchmarkDecryptString10000
 BenchmarkDecryptString10000-4   	2000000000	         0.00 ns/op
 PASS
-ok  	github.com/lowellmower/simcrypt/crypt	0.023s```
+ok  	github.com/lowellmower/simcrypt/crypt	0.023s
+```
 
 #### Example Use Case:
 An application needs to speak to an API to get some credentials or some other
